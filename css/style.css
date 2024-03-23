@@ -344,42 +344,189 @@ ul.nav.nav-pills li.active a {
     padding: 20px 30px 0px 30px;
     margin-bottom: 40px;
 }
-.teamsecbox h3{
+
+.teamsecbox h3 {
     font-family: 'Barlow';
     color: #231F22;
     font-size: 20px;
     padding-top: 10px;
 }
-.teamsecbox p{
+
+.teamsecbox p {
     font-family: 'Barlow';
     color: #9E9C9F;
     font-size: 15px;
 }
-.teamsecbox p a{
+
+.teamsecbox p a {
     font-family: 'Barlow Condensed';
     color: #B79E6E;
     font-size: 19px;
     text-decoration: none;
 }
 
+.sechighbgg {
+    background-image: url(../images/highimgbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px 0px 30px;
+}
+
+.highmainsec h4 {
+    font-family: 'Aguafina Script';
+    color: #B79E6E;
+    font-size: 35px;
+    text-align: center;
+}
+
+.highmainsec h3 {
+    font-family: 'Barlow Condensed';
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.highmainsec p {
+    font-family: 'Barlow';
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    width: 66%;
+    margin: auto;
+}
+
+.highbtnsec {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.highbtnsec a {
+    font-family: 'Barlow';
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(180, 147, 58, 1) 0%, rgba(249, 238, 159, 1) 50%, rgba(179, 148, 53, 1) 100%);
+    padding: 10px 20px;
+}
+
+.highbtnsec a:hover {
+    background: linear-gradient(90deg, rgba(249, 238, 159, 1) 0%, rgba(179, 148, 53, 1) 51%, rgba(249, 238, 159, 1) 100%);
+}
+
+.brandnainsec {
+    display: flex;
+}
+
+.makesecbgg {
+    background-image: url(../images/makebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 10px;
+}
+
+.offtext {
+    font-family: 'Montserrat';
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    text-align: right;
+}
+
+.offtext a {
+    font-weight: 400 !important;
+    color: #afafae !important;
+    text-transform: uppercase;
+}
+
+.awetextmain p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #E6E1D5;
+}
+
+.awetextmain h4 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #B79E6E;
+}
+
+.awtbtnsec a {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #CCB485;
+    text-decoration: none;
+    background: #000;
+    padding: 12px 20px;
+}
+
+.awtbtnsec a:hover {
+    background: #CCB485;
+    color: #fff;
+}
+
+
+/* gallery */
+
+
+* {
+    -webkit-transition: all 0.4s ease-out !important;
+    -moz-transition: all 0.4s ease-out !important;
+    -ms-transition: all 0.4s ease-out !important;
+    -o-transition: all 0.4s ease-out !important;
+    transition: all 0.4s ease-out !important;
+}
+
+/* MANSONRY */
+
+.gal {
+    margin-top: 0rem;
+    padding: 0rem;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+.gal img {
+    height: auto;
+}
+
+.img-hover-zoom {
+    padding: 0px 0;
+    overflow: hidden;
+}
+.img-hover-zoom img {
+    transition: transform .5s ease;
+    width: 100%;
+}
+.img-hover-zoom--zoom-n-rotate img {
+    transition: transform .5s ease-in-out;
+}
+.img-hover-zoom--zoom-n-rotate:hover img {
+    transform: scale(1.6) rotate(25deg);
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 769px) {
+    .gal {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
 
 
 
