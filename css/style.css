@@ -746,10 +746,56 @@ float: right;
     opacity: 1;
     visibility: visible;
 }
-
-
-
-
+.footerbgg{
+     background: #2F2A2E;
+     padding: 60px 60px 30px 60px;
+}
+.socalmedia{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.socalmedia p a i {
+    color: #fff;
+    font-size: 20px;
+}
+.secaddre h3{
+    font-family: 'Barlow Condensed';
+    font-size: 30px;
+    font-weight: 600;
+    color: #CFB481;
+}
+.secaddre h4{
+    font-family: 'Barlow';
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.secaddre p {
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    margin-bottom: 1px;
+}
+.secaddre p a{
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.copymainrigh p{
+    font-family: 'Barlow';
+    font-size: 17px;
+    font-weight: 400;
+    color: #CFB481;
+    padding-top: 30px;
+}
+.copymainrigh p span{
+    color: #fff !important;
+}
 
 
 
