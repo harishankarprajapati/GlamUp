@@ -28,6 +28,16 @@ a.navbar-brand {
 
 
 
+@media (max-width: 769px) {
+  .gal {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+  }
+}
+
+
+
 @media only screen and (max-width:767px) {
 
 a.navbar-brand {
@@ -139,7 +149,6 @@ ul.nav.nav-pills {
 }
 
 }
-
 
 
 

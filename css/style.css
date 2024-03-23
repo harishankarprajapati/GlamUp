@@ -799,14 +799,6 @@ float: right;
 
 
 
-@media (max-width: 769px) {
-    .gal {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-    }
-}
-
 
 
 
