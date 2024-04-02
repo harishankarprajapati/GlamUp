@@ -797,11 +797,51 @@ float: right;
     color: #fff !important;
 }
 
-
-
-
-
-
+/* about */
+.aboutheaderbagg {
+    background: #0F0F0F;
+    margin-bottom: -89px;
+}
+.aboutoagepadd{
+    background: #1E1E1E;
+    padding-bottom: 60px;
+}
+.maintextab h2{
+    font-family: 'Barlow Condensed';
+    font-size: 90px;
+    font-weight: 700;
+    color: #B79E6E;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.abuttextpp{
+    font-family: 'Barlow';
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 60px 10px 30px 10px;
+}
+.nameoner h2{
+    font-family: 'Barlow Condensed';
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #B79E6E;
+    padding-top: 100px;
+}
+.nameoner h4{
+    font-family: 'Barlow';
+    font-size: 25px;
+    color: #fff;
+}
+.nameoner p{
+    font-family: 'Barlow';
+    font-size: 18px;
+    color: #fff;
+}
+.changimgseet{
+    padding: 60px 10px;
+}
 
 
 
