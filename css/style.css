@@ -808,7 +808,7 @@ float: right;
 }
 .maintextab h2{
     font-family: 'Barlow Condensed';
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 700;
     color: #B79E6E;
     padding-left: 100px;
@@ -844,7 +844,187 @@ float: right;
 }
 
 
+.secValuesbg{
+    background-color: #F5F5F5;
+    padding: 60px;
+}
+.valtext{
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    color: #202031;
+}
+.valumain{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 30px 0px 30px;
+}
+.valimg{
+    text-align: center;
+}
+.valimg h3{
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 25px;
+    font-style: normal;
+    color: #202031;
+    padding-top: 20px;
+}
+.secrvfonttext{
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 70px;
+    font-style: normal;
+    color: #B79E6E;
+    padding-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 0px;
 
+}
+
+
+/* servers-fom*/
+
+.sec-btn-margin {
+    margin-top: 25px;
+}
+
+label {
+    font-family: 'Oswald';
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-control {
+    font-family: 'barlow' !important;
+    font-size: 18px !important;
+    color: #9E9E9E !important;
+}
+.sec-menu-btn2 {
+    background:#B79E6E;
+    font-family: 'Oswald';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 0;
+    border: none;
+}
+
+.sec-menu-btn2:hover {
+    background:#f5b43b;
+    color: #fff;
+}
+/* servers-fom--end*/
+
+/* serverbook */
+
+.sec-ser-hh {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-erv-book {
+    padding: 60px 0px 0px 0px;
+}
+
+.sec-bord-serv {
+    border-bottom: 1px solid #DCDCDC;
+    padding: 20px 0px 0px 0px;
+}
+
+.sec-sev-book-h {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    margin: 0;
+}
+
+.sec-sev-book-p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 368%;
+    margin: 0;
+    text-align: center;
+    color: #898989;
+}
+.sec-menu-btn22 {
+    background: #B79E6E;
+    font-family: 'Manrope';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+    padding: 10px 17px;
+}
+
+.sec-menu-btn22:hover {
+    background: #ffc65b;
+    color: #fff;
+}
+/* serverbook--end */
+
+/* contact */
+.sec-contact-padding{
+    padding: 60px 10px;
+}
+.sec-cont-hh{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #B79E6E;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.sec-cont-pp {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.seccont-add-h {
+    font-family: 'Barlow';
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+.seccont-add-p{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.sec-contact-padding{
+    padding: 60px 0px;
+}
+.contcbgg{
+    background-color: #000;
+    padding: 20px;
+}
+.navbar:before, .navbar:after {
+    display: table;
+    content: " ";
+    display: none;
+}
 
 
 
