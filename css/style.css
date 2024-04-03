@@ -1027,8 +1027,63 @@ label {
 }
 
 
+.newblogimgtext2 p {
+    font-family: 'Barlow';
+    font-size: 16px;
+    color: #A6A2AC;
+    padding-top: 20px;
+}
 
+.newblogimgtext2 h4 {
+    font-family: 'Oswald';
+    font-size: 21px;
+    color: #fff;
+}
+.redbtnsc2 {
+    font-family: 'Manrope';
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+.redbtnsc2:hover {
+    color: #CFB481;
+}
+.newblogimgtext2 {
+    padding-bottom: 40px;
+}
+.maintextab23{
+    font-family: 'Barlow Condensed';
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 100px;
+    padding-top: 130px;
+}
 
+/* detalnesbgg */
+
+.detalnesbgg{
+    padding: 60px 10px 0px 10px;
+}
+
+.detalnesbgg p{
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-style: normal;
+    color: #fff;
+}
+.secprod {
+    text-align: center;
+}
+.secprod p{
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-style: normal;
+    color: #fff;
+    padding-top: 10px;
+}
 
 
 
