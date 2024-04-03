@@ -40,14 +40,37 @@ a.navbar-brand {
 
 @media only screen and (max-width:767px) {
 
+  .headerbagg {
+    background-image: none;
+    padding-bottom: 0px;
+    background: #000;
+    margin-bottom: -52px;
+    padding: 0;
+}
+.mainheadtext{
+  display: none;
+}
+.container-fluid.pt-3.sec-menu-bgg {
+  padding: 0px !important;
+}
+
 a.navbar-brand {
   width: 36% !important;
 }
 .offcanvas-header {
   background: #000;
 }
+.mainheadtext233{
+  display: block;
+  background-color: #000;
+  margin-top: -55px;
+  padding-bottom: 80px;
+}
+.mobiletextpading{
+  padding: 0;
+}
 button.navbar-toggler {
-  background: #000;
+  background: #353434;
 }
 .callsec {
   display: none;
@@ -148,7 +171,118 @@ ul.nav.nav-pills {
 .footerbgg {
   padding: 30px 20px 30px 20px;
 }
+/* about */
+.aboutheaderbagg {
+  margin-bottom: -63px;
+}
+.maintextab h2 {
+  font-size: 40px;
+  padding-left: 10px;
+  padding-top: 45px;
+}
+.abuttextpp {
+  font-size: 18px;
+  padding: 30px 0px 30px 0px;
+}
+.aboutoagepadd {
+  padding: 5px;
+}
+.nameoner h2 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+.secchangimgseet{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.nameoner p {
+  font-size: 16px;
+}
+.secValuesbg {
+  padding: 10px;
+}
+.valumain {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  flex-direction: column;
+}
+.valimg {
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+/* serves */
+.secrvfonttext {
+  font-size: 30px;
+}
 
+.shadow.p-5.mb-5.bg-white.rounded {
+  padding: 20px 10px !important;
+  margin-bottom: 0px !important;
+}
+.seserbookpad{
+  padding: 0px;
+}
+.sec-ser-hh {
+  font-size: 17px;
+}
+.sec-sev-book-h {
+  font-size: 16px;
+}
+.sec-sev-book-p {
+  font-size: 17px;
+  line-height: 28px;
+  text-align: left;
+}
+.sec-menu-btn22 {
+  font-size: 14px;
+  line-height: 17px;
+  padding: 9px 13px;
+}
+.sec-erv-book {
+  padding: 30px 0px;
+}
+.newblogimgtext2 {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.container.newspadd.pt-5 .row {
+  padding: 0px !important;
+}
+.maintextab23 {
+  font-size: 20px;
+  padding: 51px 10px 10px 10px;
+}
+.detalnesbgg {
+  padding: 30px 10px 0px 10px;
+}
+.detalnesbgg p {
+  font-size: 18px;
+}
+.seccont-add-p {
+  word-wrap: break-word;
+}
+.container-fluid.aboutoagepadd .row {
+  margin: 0px;
+}
+.form-group {
+  margin-bottom: 15px;
+  padding: 0px;
+}
+.text-left {
+  padding-bottom: 20px;
+}
+.sec-contact-padding {
+  padding: 30px 0px;
+}
+.sec-cont-hh {
+  font-size: 30px;
+}
+.seccont-add-p , .sec-cont-pp {
+  font-size: 16px;
+}
 }
 
 
