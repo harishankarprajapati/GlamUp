@@ -71,6 +71,10 @@ a.navbar-brand {
 }
 button.navbar-toggler {
   background: #353434;
+  margin-top: 10px;
+}
+.wenbtnmai {
+  padding-top: 30px;
 }
 .callsec {
   display: none;
@@ -97,7 +101,7 @@ br {
   font-weight: 800;
 }
 .welmainsec {
-  padding: 30px 20px 120px 20px;
+  padding: 45px 20px 120px 20px;
 }
 .welmainsec h3 , .profmainsec h4 , .highmainsec h4{
   font-size: 25px;
@@ -117,7 +121,8 @@ ul.nav.nav-pills {
   margin-top: 0px;
   padding-left: 0px;
   border-bottom: 1px solid;
-  padding: 10px;
+  padding: 360px 10px 10px 10px;
+  position: relative;
 }
 .secvessecbg {
   padding: 0px 0px 30px 0px;
@@ -176,9 +181,10 @@ ul.nav.nav-pills {
   margin-bottom: -85px;
 }
 .maintextab h2 {
-  font-size: 40px;
+  font-size: 46px;
   padding-left: 10px;
-  padding-top: 65px;
+  padding-top: 85px;
+  padding-bottom: 30px;
 }
 .abuttextpp {
   font-size: 18px;
@@ -200,7 +206,7 @@ ul.nav.nav-pills {
   font-size: 16px;
 }
 .secValuesbg {
-  padding: 10px;
+  padding: 40px 10px;
 }
 .valumain {
   display: flex;
@@ -248,7 +254,7 @@ ul.nav.nav-pills {
 .newblogimgtext2 {
   border: 1px solid #ccc;
   padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .container.newspadd.pt-5 .row {
   padding: 0px !important;
@@ -268,6 +274,7 @@ ul.nav.nav-pills {
 }
 .container-fluid.aboutoagepadd .row {
   margin: 0px;
+  padding-bottom: 20px;
 }
 .form-group {
   margin-bottom: 15px;
@@ -283,7 +290,34 @@ ul.nav.nav-pills {
   font-size: 30px;
 }
 .seccont-add-p , .sec-cont-pp {
-  font-size: 16px;
+  font-size: 18px;
+}
+.secrsevbghov2 , .secrsevbghov {
+  padding: 20px 20px;
+}
+.sectabrigrt {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.hebsec {
+  height: 50%;
+  width: 54%;
+}
+ .clearfix {
+  position: absolute;
+} 
+.paddingsecpro{
+  padding-top: 340px;
+}
+.paddfoot{
+  padding: 0px !important;
+}
+.secaddre h3 {
+  padding-top: 30px;
+}
+.seccont-add-h {
+  font-size: 25px;
 }
 }
 
